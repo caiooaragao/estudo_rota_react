@@ -1,0 +1,35 @@
+[
+    {
+       "id":1,
+       "title":"5 dicas para melhorar seu desempenho no trabalho remoto",
+       "content":"Com a pandemia do COVID-19, muitas empresas adotaram o trabalho remoto como uma opção para manter a segurança dos funcionários. No entanto, trabalhar em casa pode ter seus desafios. Aqui estão cinco dicas para melhorar seu desempenho no trabalho remoto...",
+       "imagem":"https://via.placeholder.com/600/92c952",
+       "usuario":{
+          "userId":"1",
+          "userName":"João da Silva",
+          "userIcon":"https://via.placeholder.com/600/92c952.png"
+       }
+    },
+    {
+       "id":2,
+       "title":"Receita fácil de bolo de chocolate",
+       "content":"Se você está procurando uma sobremesa rápida e deliciosa para preparar em casa, experimente esta receita fácil de bolo de chocolate. Com apenas alguns ingredientes simples, você pode preparar um bolo fofo e delicioso em menos de uma hora...",
+       "imagem":"https://via.placeholder.com/600/92c952",
+       "usuario":{
+          "userId":"2",
+          "userName":"Maria Souza",
+          "userIcon":"https://via.placeholder.com/600/92c952.png"
+       }
+    },
+    {
+       "id":3,
+       "title":"As melhores praias do Brasil",
+       "content":"O Brasil tem algumas das praias mais bonitas do mundo, com águas cristalinas, areia branca e muita diversidade cultural. Neste artigo, vamos apresentar as melhores praias do país, desde as mais populares até as mais escondidas e menos conhecidas...",
+       "imagem":"https://via.placeholder.com/600/92c952",
+       "usuario":{
+          "userId":"3",
+          "userName":"Pedro Nunes",
+          "userIcon":"https://via.placeholder.com/600/92c952.png"
+       }
+    }
+ ]

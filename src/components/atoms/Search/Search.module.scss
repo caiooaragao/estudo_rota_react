@@ -1,0 +1,34 @@
+// Estilo de input de texto padrão do macOS
+input[type="text"],
+textarea {
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid #dcdcdc;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  transition: border-color 0.2s ease-in-out;
+
+  &:focus {
+    outline: none;
+    border-color: #4d90fe;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 0 0 2px rgba(77, 144, 254, 0.2);
+  }
+  &:hover{
+    border-color: #4d90fe;
+  }
+}
+
+// Estilo de seleção de texto padrão do macOS
+::selection {
+  background-color: #4d90fe;
+  color: #fff;
+}
+
+input[type="text"]::selection,
+textarea::selection {
+  background-color: #4d90fe;
+  color: #fff;
+}

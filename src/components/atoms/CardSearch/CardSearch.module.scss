@@ -1,0 +1,94 @@
+.card {
+  width: 600px;
+  height: auto;
+  border-radius: 12px;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+
+  .top {
+    display: flex;
+    align-items: center;
+    margin: 16px 16px 0;
+
+    .icon {
+      margin-right: 12px;
+      width: 28px;
+      height: 28px;
+      svg {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .title {
+      font-size: 24px;
+      font-weight: 500;
+      color: #000000;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+  .middle{
+    display: inline-flex;
+    flex-direction: row
+  }
+  
+  .content {
+    font-size: 11px;
+    color: #666666;
+    width: 75%;
+    height: auto;
+    margin: 16px;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .image {
+    width: 25%;
+    height: auto;
+    margin-left: auto;
+    
+    margin-right: 16px;
+    overflow: hidden;
+    border-radius: 12px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .bottom {
+    display: flex;
+    align-items: center;
+    margin: 0 16px 16px;
+
+    .page__icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background-color: #c4c4c4;
+      margin-right: 8px;
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+      }
+    }
+
+    .page {
+      font-size: 14px;
+      color: #666666;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
